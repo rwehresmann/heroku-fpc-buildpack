@@ -6,10 +6,10 @@ echo "-----> Installing Free Pascal Compiler 3.0.2"
 cd $1
 
 # download the binary (-O) silently (-s)
-wget https://github.com/rwehresmann/fpc-files/raw/master/fpc.tar
+wget https://github.com/rwehresmann/fpc-files/raw/master/fpc.tar --quiet
 
 # make a directory to untar (like unzip) the binary
 mkdir -p vendor/fpc
 
 # untar the binary to the directory we want
-tar -C vendor/fpc -xvf fpc.tar.gz
+tar -C vendor/fpc -xvf fpc.tar
