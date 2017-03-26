@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo "Free Pascal Compiler 3.0.2"
+exit 0
